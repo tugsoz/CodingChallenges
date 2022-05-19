@@ -102,3 +102,21 @@ else if(dolphins == koalas && dolphins >= 100 && koalas >= 100){
 
 console.log("==================Coding Challenge #4===================");
 
+function tipCalculator(bill){
+    (bill >= 50 && bill <= 300) ? tip = bill * 0.15 : tip = bill * 0.2;
+    total = bill + tip;
+    console.log(`Bill: $${bill}, Tip: $${tip}, Total: $${total}`)
+}
+
+tipCalculator(275);
+tipCalculator(40);
+tipCalculator(430);
+
+console.log("==================Coding Challenge #5===================");
+
+calcAverage = (a,b,c) => {
+    console.log((a + b + c) / 3)
+}
+
+calcAverage(44,23,71);
+calcAverage(65,54,49);
